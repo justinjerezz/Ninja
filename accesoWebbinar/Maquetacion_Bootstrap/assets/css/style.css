@@ -265,6 +265,18 @@ iframe {
         font-size: 4em;
     }
 
+    /*Directo*/
+
+    .contenedorEstrella1 {
+        margin-right: 17%;
+    }
+
+    iframe {
+        width: 100%;
+    }
+    .contenedorVideo {
+        width: 100%;
+    }
 
 }
 
@@ -295,6 +307,21 @@ iframe {
     }
 
 
+    /*Directo*/
+
+    .imgEstrella{
+        width: 70%;
+    }
+    .contenedorVideo {
+        width: 100%;
+    }
+    iframe {
+        width: 100%;
+    }
+
+    .contenedorEstrella1 {
+        margin-right: 13%;
+    }
 }
 
 
@@ -403,15 +430,18 @@ iframe {
 
     .panelVideo {
         position: initial;
+        margin-top: 0;
     }
 
     .contenedorVideo {
         position: initial;
         width: 100%;
+        height: 24em;
     }
     .panelGeneral {
         width: 100%;
         height: 100%;
+        margin-top: 15%;
     }
     iframe {
         width: 100%;
@@ -421,7 +451,7 @@ iframe {
         margin-top: 3%;
     }
     .btn-prospecto {
-        font-size: 0.75em !important;
+        font-size: 1.4em !important;
     }
 
 
@@ -477,6 +507,25 @@ iframe {
     }
 
 
+    /*Directo*/
+
+    .panelGeneral{
+        margin-top: 20%;
+    }
+
+    .contenedorVideo {
+        position: initial;
+        width: 93%;
+        height: 15em;
+    }
+    iframe {
+        width: 100%;
+        height: 100%;
+    }
+
+    .btn-prospecto {
+        font-size: 0.96em !important;
+    }
 
 }
 

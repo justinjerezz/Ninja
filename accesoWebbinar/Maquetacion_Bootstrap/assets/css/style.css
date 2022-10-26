@@ -181,68 +181,34 @@
     color: #000000;
 
 }
-.contenedorModal{
+
+.contenedorModal {
     background-color: #f1fbfb !important;
 }
 
-.contenedorTexto{
+.contenedorTexto {
     font-size: 1.3em !important;
     font-family: "Montserrat-Medium";
 }
-.btn-cerrar:hover{
+
+.btn-cerrar:hover {
     background-color: rgba(255, 0, 0, 0.678) !important;
     border-color: rgba(255, 0, 0, 0.678) !important;
 }
 
-.cerrar-simbolo:hover{
+.cerrar-simbolo:hover {
     color: rgba(255, 0, 0, 0.678) !important;
 }
 
 
-.contenedor-cerrar{
-border: none !important;
+.contenedor-cerrar {
+    border: none !important;
 }
 
 
 
 
 /*Directo*/
-
-
-.panelVideo {
-    display: flex;
-    flex-direction: row;
-    margin-top: 6%;
-    justify-content: center;
-}
-
-.panelVideo>div {
-    position: relative;
-}
-
-.contenedorVideo {
-    position: absolute !important;
-    z-index: 1;
-    width: 50%;
-}
-
-.contenedorVideo>video {
-    width: 100%;
-}
-
-.contenedorEstrella1 {
-    right: 46%;
-    margin-top: -1%;
-}
-
-.contenedorEstrella2 {
-    left: 35%;
-}
-
-.imgEstrella {
-    width: 120%;
-    opacity: 25%;
-}
 
 
 .panelGeneral {
@@ -252,6 +218,48 @@ border: none !important;
     align-items: center;
 }
 
+
+.panelVideo {
+    display: flex;
+    flex-direction: row;
+    margin-top: 6%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+}
+
+.contenedorVideo {
+    position: absolute;
+    width: 39%;
+    height: 100%;
+    z-index: 1;
+}
+
+
+iframe{
+    width: 99%;
+    height: 100%;
+  }
+
+.imgEstrella {
+    opacity: 0.3;
+    width: 80%;
+}
+
+.contenedorEstrella1 {
+    text-align: center;
+    margin-right: 13%;
+}
+
+.contenedorEstrella2 {
+    text-align: center;
+}
+
+
+
+
+
 .contenedorBoton {
     margin-top: 3%;
 }
@@ -259,70 +267,17 @@ border: none !important;
 .btn-prospecto {
     background-color: #4b6272;
     color: #ffffff;
-    letter-spacing: 15%;
     border-radius: 0.45rem !important;
+    padding: 0.39rem 2.5rem !important;
+}
+
+.videWebbinar {
+    width: 100%;
+    height: 100%;
 }
 
 
 
-@media (max-width:1920px) {
-
-    /*Directo*/
-
-
-    .panelVideo {
-        display: flex;
-        flex-direction: row;
-        margin-top: 6%;
-        justify-content: center;
-    }
-
-    .panelVideo>div {
-        position: relative;
-    }
-
-    .contenedorVideo {
-        position: absolute !important;
-        z-index: 1;
-        width: 50%;
-    }
-
-    .contenedorVideo>video {
-        width: 100%;
-    }
-
-    .contenedorEstrella1 {
-        right: 22%;
-        margin-top: -1%;
-    }
-
-    .contenedorEstrella2 {
-        left: 26%;
-    }
-
-    .imgEstrella {
-        width: 90%;
-        opacity: 25%;
-    }
-
-
-    .panelGeneral {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .contenedorBoton {
-        margin-top: 4%;
-    }
-
-    .btn-prospecto {
-        background-color: #4b6272;
-        color: #ffffff;
-        letter-spacing: 2px;
-    }
-}
 
 
 
@@ -350,21 +305,6 @@ border: none !important;
         font-size: 4em;
     }
 
-    /*Directo*/
-
-    .imgEstrella {
-        width: 70%;
-        opacity: 25%;
-    }
-
-    .contenedorEstrella1 {
-        right: 5%;
-        margin-top: -1%;
-    }
-
-    .contenedorEstrella2 {
-        left: 19%;
-    }
 
 }
 
@@ -394,21 +334,6 @@ border: none !important;
         font-size: 4em;
     }
 
-    /*Directo*/
-
-    .imgEstrella {
-        width: 49%;
-    }
-
-    .contenedorEstrella1 {
-        text-align: center;
-        right: 1%;
-    }
-
-    .contenedorEstrella2 {
-        left: 1%;
-        text-align: center;
-    }
 
 }
 
@@ -466,7 +391,8 @@ border: none !important;
     .informacion {
         font-size: 1.8em !important;
     }
-    .informacion>br{
+
+    .informacion>br {
         display: none;
     }
 
@@ -505,21 +431,6 @@ border: none !important;
         justify-content: center;
     }
 
-    /*Directo*/
-
-    .imgEstrella {
-        width: 46%;
-    }
-
-    .contenedorEstrella1 {
-        text-align: center;
-        right: 0%;
-    }
-
-    .contenedorEstrella2 {
-        left: 0%;
-        text-align: center;
-    }
 
 }
 
@@ -573,26 +484,7 @@ border: none !important;
     }
 
 
-    /*Directo*/
-    .contenedorEstrella1 {
-        display: none;
-    }
 
-    .contenedorEstrella2 {
-        display: none;
-    }
-
-    .contenedorVideo {
-        width: 80%;
-    }
-
-    .contenedorBoton {
-        margin-top: 46%;
-    }
-
-    .btn-prospecto {
-        font-size: 0.75rem !important;
-    }
 }
 
 
@@ -632,32 +524,7 @@ border: none !important;
         font-size: 3em;
     }
 
-    /*Directo*/
-    .contenedorEstrella1 {
-        display: none;
-    }
 
-    .contenedorEstrella2 {
-        display: none;
-    }
-
-    .contenedorVideo {
-        width: 80%;
-    }
-
-    .contenedorBoton {
-        margin-top: 46%;
-    }
-
-    .btn-prospecto {
-        font-size: 0.75rem !important;
-    }
-
-    .imgTemporizador {
-        width: 80% !important;
-        margin-top: 0%;
-        margin-left: 25px;
-    }
 
 }
 
@@ -678,51 +545,6 @@ border: none !important;
         margin-left: 25px;
     }
 
-    /*Directo*/
-    .contenedorEstrella1 {
-        display: none;
-    }
-
-    .contenedorEstrella2 {
-        display: none;
-    }
-
-    .contenedorVideo {
-        width: 80%;
-    }
-
-    .contenedorBoton {
-        margin-top: 46%;
-    }
-
-    .btn-prospecto {
-        font-size: 0.75rem !important;
-    }
-
-    .panel1 {
-        margin: 0;
-    }
-
-    #cuentaAtras {
-        width: 100%;
-    }
-
-    .imgTemporizador {
-        width: 80% !important;
-        margin-top: 0%;
-        margin-left: 25px;
-    }
-
-    .simply-amount {
-        display: block;
-        font-size: 2.3em;
-        word-spacing: 15px;
-        font-family: "Montserrat-Medium";
-    }
-
-    .simply-section {
-        background-color: #f1fbfb;
-    }
 }
 
 
@@ -759,23 +581,6 @@ border: none !important;
         margin-left: 25px;
     }
 
-    /*Directo*/
-    .contenedorEstrella1 {
-        display: none;
-    }
-
-    .contenedorEstrella2 {
-        display: none;
-    }
-
-    .contenedorVideo {
-        width: 80%;
-    }
-
-    .contenedorBoton {
-        margin-top: 46%;
-    }
-
 }
 
 @media (max-width: 360px) {
@@ -804,25 +609,5 @@ border: none !important;
         font-size: 2em;
     }
 
-    /*Directo*/
-    .contenedorEstrella1 {
-        display: none;
-    }
-
-    .contenedorEstrella2 {
-        display: none;
-    }
-
-    .contenedorVideo {
-        width: 80%;
-    }
-
-    .contenedorBoton {
-        margin-top: 46%;
-    }
-
-    .btn-prospecto {
-        font-size: 0.75rem !important;
-    }
 
 }

@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/bootstrap-4.0.0-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./assets/bootstrap-4.0.0-dist/css/bootstrap.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Ninja Ventas</title>
 </head>
@@ -28,12 +28,11 @@
                 <!--<h1 class="flight fs-4-8em font-weight-normal temporizador reloj" id="relojnumerico">00 : 00 : <span
                         class="seconds">00</span>
                 </h1>-->
-
             </div>
             <div class="contenedorBotonFormacion">
-                <button type="button" class="btn fmedium fs-1-7em btn-UnirteFormacion font-weight-normal"><a
-                        href="./directo.html" class="btn btn-UnirteFormacion">CLICK PARA UNIRTE A LA
-                        FORMACIÓN</a></button>
+                <button type="button" class="btn fmedium fs-1-7em btn-UnirteFormacion font-weight-normal"  data-toggle="modal" data-target=".bd-example-modal-lg" >
+                   CLICK PARA UNIRTE A LA FORMACIÓN
+                </button>
             </div>
         </div>
         <div class="panel2">
@@ -41,8 +40,33 @@
         </div>
     </div>
 
+    <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content contenedorModal">
+                <div class="modal-header contenedor-cerrar-simbolo">
+                    <h5 class="modal-title tituloAviso">AVISO</h5>
+                    <button type="button" class="close cerrar-simbolo" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body contenedorTexto">
+                    <p>El acceso a la formación estará disponible una hora antes de la hora de inicio asignada.</p>
+                  </div>
+                  <div class="modal-footer contenedor-cerrar">
+                    <button type="button" class="btn btn-secondary btn-cerrar" data-dismiss="modal">Close</button>
+                  </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./assets/bootstrap-4.0.0-dist/js/jquery-3.2.1.min.js"></script>
     <script src="./js/simplyCountdown.min.js"></script>
     <script src="./js/index.js"></script>
+    <script src="./assets/bootstrap-4.0.0-dist/js/bootstrap.min.js"></script>
+
+
 </body>
 
 </html>

@@ -11,9 +11,6 @@
 
 
 
-
-
-
 .navbar {
     background-color: #a2acb8;
     text-align: center !important;
@@ -147,20 +144,20 @@
 
 .informacion {
     color: #000000;
+    font-size: 2.1em;
 }
 
 
-#cuentaAtras{
+#cuentaAtras {
     display: flex;
-    justify-content: center;
 
 }
 
-.simply-section{
+.simply-section {
     background-color: white;
     width: 100px;
     height: 100px;
-    margin: 0 20px;
+    margin-right: 15px;
     border-radius: 5px;
     display: flex;
     align-items: center;
@@ -168,11 +165,42 @@
     text-align: center;
 }
 
-.simply-amount{
+.simply-amount {
     display: block;
     font-size: 2.8em;
     word-spacing: 15px;
     font-family: "Montserrat-Medium";
+}
+
+
+/*Modal estilos personalizados*/
+
+.tituloAviso {
+    font-family: "Montserrat-Medium";
+    font-weight: 800;
+    color: #000000;
+
+}
+.contenedorModal{
+    background-color: #f1fbfb !important;
+}
+
+.contenedorTexto{
+    font-size: 1.3em !important;
+    font-family: "Montserrat-Medium";
+}
+.btn-cerrar:hover{
+    background-color: rgba(255, 0, 0, 0.678) !important;
+    border-color: rgba(255, 0, 0, 0.678) !important;
+}
+
+.cerrar-simbolo:hover{
+    color: rgba(255, 0, 0, 0.678) !important;
+}
+
+
+.contenedor-cerrar{
+border: none !important;
 }
 
 
@@ -392,6 +420,7 @@
         width: 100%;
         margin-top: 13%;
     }
+
     .informacion {
         font-size: 1.5em !important;
     }
@@ -401,34 +430,79 @@
         font-size: 3em;
     }
 
-    .btn-UnirteFormacion{
+    .btn-UnirteFormacion {
         font-size: 0.8rem !important;
     }
 
+    .simply-amount {
+        font-size: 2.3em;
+    }
+
+    .contenedorBotonFormacion {
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .btn-UnirteFormacion {
+        padding: 0.36em 2rem !important;
+    }
 }
 
 
 @media (max-width: 768px) {
+    body {
+        background-color: #f1fbfb !important;
+    }
+
     .panel {
         flex-direction: column;
         text-align: center;
     }
 
     .panel1>br {
-        display: none;
+        display: none !important;
     }
 
     .informacion {
         font-size: 1.8em !important;
     }
+    .informacion>br{
+        display: none;
+    }
 
     .panel2 {
-        margin-top: 9%;
         text-align: center;
     }
 
     .imgTemporizador {
-        width: 44%;
+        width: 60% !important;
+    }
+
+    .btn-UnirteFormacion {
+        font-size: 1.1em !important;
+        letter-spacing: 0px;
+        padding: 0.36em 1rem !important;
+    }
+
+    .temporizador {
+        word-spacing: 15px;
+        font-size: 3em;
+    }
+
+    .simply-section {
+        background-color: white;
+    }
+
+
+    .imgTemporizador {
+        width: 40% !important;
+        margin-top: 0%;
+        margin-left: 25px;
+    }
+
+    #cuentaAtras {
+        display: flex;
+        justify-content: center;
     }
 
     /*Directo*/
@@ -450,6 +524,10 @@
 }
 
 @media (max-width: 428px) {
+    body {
+        background-color: #f1fbfb !important;
+    }
+
     .panel {
         flex-direction: column;
         text-align: center;
@@ -475,13 +553,26 @@
     .btn-UnirteFormacion {
         font-size: 0.8rem !important;
         letter-spacing: 0px;
+        padding: 0.36em 1rem !important;
     }
 
     .temporizador {
         word-spacing: 15px;
         font-size: 3em;
     }
-    
+
+    .simply-section {
+        background-color: #f1fbfb;
+    }
+
+
+    .imgTemporizador {
+        width: 80% !important;
+        margin-top: 0%;
+        margin-left: 25px;
+    }
+
+
     /*Directo*/
     .contenedorEstrella1 {
         display: none;
@@ -562,13 +653,29 @@
         font-size: 0.75rem !important;
     }
 
+    .imgTemporizador {
+        width: 80% !important;
+        margin-top: 0%;
+        margin-left: 25px;
+    }
+
 }
 
 
 @media (max-width: 412px) {
 
+    body {
+        background-color: #f1fbfb !important;
+    }
+
     .temporizador {
         font-size: 2.5em;
+    }
+
+    .imgTemporizador {
+        width: 80% !important;
+        margin-top: 0%;
+        margin-left: 25px;
     }
 
     /*Directo*/
@@ -592,9 +699,39 @@
         font-size: 0.75rem !important;
     }
 
+    .panel1 {
+        margin: 0;
+    }
+
+    #cuentaAtras {
+        width: 100%;
+    }
+
+    .imgTemporizador {
+        width: 80% !important;
+        margin-top: 0%;
+        margin-left: 25px;
+    }
+
+    .simply-amount {
+        display: block;
+        font-size: 2.3em;
+        word-spacing: 15px;
+        font-family: "Montserrat-Medium";
+    }
+
+    .simply-section {
+        background-color: #f1fbfb;
+    }
 }
 
 
+
+@media (max-width: 384px) {
+    .btn-UnirteFormacion {
+        padding: 0.36em 1rem !important;
+    }
+}
 
 
 @media (max-width: 375px) {
@@ -608,13 +745,18 @@
     }
 
     .btn-UnirteFormacion {
-        font-size: 0.6rem !important;
         letter-spacing: 0px;
     }
 
     .temporizador {
         word-spacing: 15px;
         font-size: 2em;
+    }
+
+    .imgTemporizador {
+        width: 80% !important;
+        margin-top: 0%;
+        margin-left: 25px;
     }
 
     /*Directo*/
@@ -634,10 +776,12 @@
         margin-top: 46%;
     }
 
-    .btn-prospecto {
-        font-size: 0.75rem !important;
-    }
+}
 
+@media (max-width: 360px) {
+    .btn-UnirteFormacion {
+        padding: 0.36em 1rem !important;
+    }
 }
 
 @media (max-width: 320px) {

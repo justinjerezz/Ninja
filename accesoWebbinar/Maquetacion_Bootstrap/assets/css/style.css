@@ -33,7 +33,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 6% 15%;
+    margin: 4% 15% 2%;
     padding-top: 3%;
 }
 
@@ -138,38 +138,115 @@
 
 /*Modal estilos personalizados*/
 
+.contenedorModalGeneral {
+    top: 25% !important;
+}
+
 .tituloAviso {
-    font-family: "Montserrat-Medium";
-    font-weight: 800;
-    color: #000000;
+    font-family: "Montserrat-Light";
+    font-weight: 600 !important;
+    color: #a2acb8;
+    padding-inline: 15px;
+    font-size: 1.4rem !important;
 
 }
 
 .contenedorModal {
     background-color: #f1fbfb !important;
+    border-radius: 1.5rem !important;
+    text-align: center !important;
+    height: 294px !important;
 }
 
 .contenedorTexto {
-    font-size: 1.3em !important;
+    font-size: 1em !important;
     font-family: "Montserrat-Medium";
+    margin-inline: 72px !important;
+    padding: 0 !important;
+    flex: none !important;
 }
-
-.btn-cerrar:hover {
-    background-color: rgba(255, 0, 0, 0.678) !important;
-    border-color: rgba(255, 0, 0, 0.678) !important;
-}
-
-.cerrar-simbolo:hover {
-    color: rgba(255, 0, 0, 0.678) !important;
-}
-
 
 .contenedor-cerrar {
     border: none !important;
+    justify-content: center !important;
+}
+
+.contenedorAviso {
+    border: none !important;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-top: 25px;
+}
+
+.modal-lg {
+    max-width: 550px !important;
+}
+
+.lineaAviso {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 2px solid #a2acb8;
+    padding-inline: 170px;
+}
+
+.btn-cerrar {
+    border-radius: 0.9rem !important;
+    padding: 0.375rem 2.75rem !important;
+    background-color: #4B4A4A !important;
 }
 
 
 
+
+/*ContenedorWhatsApp*/
+
+
+
+.contenedorWhatsAppGeneral{
+    text-align: center;
+    font-family: "Montserrat-Medium";
+}
+
+.contenedorWhatsApp {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+
+}
+.contenedorWhatsApp>a{
+    color: white;
+    text-decoration: none;
+    background-color: #3bd60c;
+    padding: 10px;
+    width: 23%;
+    border-radius: 19px;
+}
+
+.contenedorWhatsApp>a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+
+.imgWhat{
+    width: 8%;
+    margin-inline: 5px;
+
+}
+.enlaceWhat{
+    font-size: 1.2em;
+}
+
+.preguntaWhat{
+    font-size: 27px;
+    margin: 0 auto;
+}
 
 /*Directo*/
 
@@ -274,8 +351,20 @@ iframe {
     iframe {
         width: 100%;
     }
+
     .contenedorVideo {
         width: 100%;
+    }
+
+    
+    /*ContenedorWhatsApp*/
+
+
+
+    .contenedorWhatsApp>a {
+
+        width: 42%;
+
     }
 
 }
@@ -309,12 +398,14 @@ iframe {
 
     /*Directo*/
 
-    .imgEstrella{
+    .imgEstrella {
         width: 70%;
     }
+
     .contenedorVideo {
         width: 100%;
     }
+
     iframe {
         width: 100%;
     }
@@ -438,23 +529,47 @@ iframe {
         width: 100%;
         height: 24em;
     }
+
     .panelGeneral {
         width: 100%;
         height: 100%;
         margin-top: 15%;
     }
+
     iframe {
         width: 100%;
         height: 100%;
     }
+
     .contenedorBoton {
         margin-top: 3%;
     }
+
     .btn-prospecto {
         font-size: 1.4em !important;
     }
 
 
+    /*ContenedorWhatsApp*/
+
+
+    .preguntaWhat {
+        font-size: 21px;
+        margin: 0 auto;
+    }
+
+    .contenedorWhatsApp>a {
+        color: white;
+        text-decoration: none;
+        background-color: #3bd60c;
+        padding: 10px;
+        width: 46%;
+        border-radius: 19px;
+    }
+
+    .enlaceWhat {
+        font-size: 1em;
+    }
 }
 
 @media (max-width: 428px) {
@@ -509,7 +624,7 @@ iframe {
 
     /*Directo*/
 
-    .panelGeneral{
+    .panelGeneral {
         margin-top: 20%;
     }
 
@@ -518,6 +633,7 @@ iframe {
         width: 93%;
         height: 15em;
     }
+
     iframe {
         width: 100%;
         height: 100%;
@@ -526,6 +642,26 @@ iframe {
     .btn-prospecto {
         font-size: 0.96em !important;
     }
+
+       
+
+/*ContenedorWhatsApp*/
+
+
+
+.contenedorWhatsAppGeneral{
+    text-align: center;
+    font-family: "Montserrat-Medium";
+    margin: 25%;
+}
+.contenedorWhatsApp>a{
+    width: 100%;
+}
+.preguntaWhat{
+    font-size: 23px;
+    margin: 0 auto;
+}
+
 
 }
 
@@ -565,6 +701,26 @@ iframe {
         word-spacing: 15px;
         font-size: 3em;
     }
+
+
+   
+
+/*ContenedorWhatsApp*/
+
+
+
+.contenedorWhatsAppGeneral{
+    text-align: center;
+    font-family: "Montserrat-Medium";
+    margin: 9%;
+}
+.contenedorWhatsApp>a{
+    width: 100%;
+}
+.preguntaWhat{
+    font-size: 23px;
+    margin: 0 auto;
+}
 
 
 

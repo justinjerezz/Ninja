@@ -30,8 +30,9 @@
                 </h1>-->
             </div>
             <div class="contenedorBotonFormacion">
-                <button type="button" class="btn fmedium fs-1-7em btn-UnirteFormacion font-weight-normal"  data-toggle="modal" data-target=".bd-example-modal-lg" >
-                   CLICK PARA UNIRTE A LA FORMACIÓN
+                <button type="button" class="btn fmedium fs-1-7em btn-UnirteFormacion font-weight-normal"
+                    data-toggle="modal" data-target=".bd-example-modal-lg">
+                    CLICK PARA UNIRTE A LA FORMACIÓN
                 </button>
             </div>
         </div>
@@ -40,25 +41,46 @@
         </div>
     </div>
 
-    <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
-        aria-hidden="true">
+    <div class="contenedorWhatsAppGeneral">
+
+        <div class="preguntaWhat">
+            <p>¿Aún no estás en nuestro grupo de WhatsApp?</p>
+        </div>
+        <div class="contenedorWhatsApp">
+
+            <a href="https://chat.whatsapp.com/LsAMmHQWISRDCdAtYRPSMa" target="_blank" class="enlaceWhat">
+                <img src="./assets/images/whatsapp.png" class="imgWhat" alt="">¡ÚNETE AL
+                GRUPO DE WHATSAPP!
+            </a>
+        </div>
+
+    </div>
+
+    <!--Modal-->
+    <div class="modal fade bd-example-modal-lg contenedorModalGeneral" tabindex="-1" role="dialog"
+        aria-labelledby="myLargeModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-lg">
             <div class="modal-content contenedorModal">
-                <div class="modal-header contenedor-cerrar-simbolo">
+                <div class="modal-header contenedorAviso">
                     <h5 class="modal-title tituloAviso">AVISO</h5>
-                    <button type="button" class="close cerrar-simbolo" data-dismiss="modal" aria-label="Close">
-                      <span aria-hidden="true">&times;</span>
-                    </button>
-                  </div>
-                  <div class="modal-body contenedorTexto">
+                    <hr class="lineaAviso">
+                </div>
+                <div class="modal-body contenedorTexto">
                     <p>El acceso a la formación estará disponible una hora antes de la hora de inicio asignada.</p>
-                  </div>
-                  <div class="modal-footer contenedor-cerrar">
-                    <button type="button" class="btn btn-secondary btn-cerrar" data-dismiss="modal">Close</button>
-                  </div>
+                </div>
+                <div class="modal-footer contenedor-cerrar">
+                    <button type="button" class="btn btn-secondary btn-cerrar" data-dismiss="modal">CERRAR</button>
+                </div>
             </div>
         </div>
     </div>
+
+
+
+
+
+
+
 
     <script src="./assets/bootstrap-4.0.0-dist/js/jquery-3.2.1.min.js"></script>
     <script src="./js/simplyCountdown.min.js"></script>

@@ -15,7 +15,7 @@
         inline: false, //Colocar el contador en line
         inlineClass: 'simply-countdown-inline', //inline css span class in case of inline = true
         // in case of inline set to false
-        enableUtc: true, // obtiene el tiempo universal
+        enableUtc: false, // obtiene el tiempo universal
         onEnd: function () {
             // Ejecuta cuando finaliza el contador
             return;

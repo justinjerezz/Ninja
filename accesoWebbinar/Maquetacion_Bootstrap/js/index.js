@@ -1,5 +1,5 @@
-var addMlSeconds = 60 * 60000;
-var end = new Date('2022-11-23T12:06:00+00:00');
+var MlSeconds = 60 * 60000;
+var end = new Date('2022-11-23T13:00:00+00:00');
 
 
             end = new Date(end.toLocaleString('en-US', {
@@ -24,7 +24,7 @@ var end = new Date('2022-11-23T12:06:00+00:00');
 
                 let now = formatCurrentDate()
 
-                var distance = (end-addMlSeconds) - now;
+                var distance = (end-MlSeconds) - now;
 
                 /* console.log(end, now) */
                 if (distance < 0) {

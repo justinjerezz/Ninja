@@ -128,13 +128,32 @@
     text-align: center;
 }
 
+
+
+
+
 .simply-amount {
     display: block;
-    font-size: 2.8em;
+    font-size: 2em;
     word-spacing: 15px;
     font-family: "Montserrat-Medium";
+    text-align: center;
 }
 
+.simply-amount >div{
+margin-left: 10px;
+background-color: white;
+width: 100% !important;
+padding: 0.5em;
+}
+
+
+.textoFecha{
+    font-size: 0.5em !important;
+}
+.contenedorDias{
+    margin: 0 !important;
+}
 
 /*Modal estilos personalizados*/
 
@@ -428,17 +447,15 @@ iframe {
         font-size: 1.5em !important;
     }
 
-    .temporizador {
-        word-spacing: 15px;
-        font-size: 3em;
+    .textoFecha {
+        font-size: 0.4em !important;
     }
 
     .btn-UnirteFormacion {
         font-size: 0.8rem !important;
     }
-
     .simply-amount {
-        font-size: 2.3em;
+        font-size: 1.9em;
     }
 
     .contenedorBotonFormacion {
@@ -495,6 +512,12 @@ iframe {
 
     .simply-section {
         background-color: white;
+    }
+    .simply-amount {
+        font-size: 2.5em !important;
+    }
+    .simply-amount >div {
+        padding: 0.4em !important;
     }
 
 
@@ -586,14 +609,20 @@ iframe {
         display: none !important;
     }
 
+    .panel1{
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+    }
+
     .informacion {
         font-size: 1.5em !important;
     }
 
-    .panel2 {
-        margin-top: 9%;
-        text-align: center;
+    .simply-amount {
+        font-size: 2.0em !important;
     }
+
+
 
     .imgTemporizador {
         width: 60% !important;
@@ -743,6 +772,10 @@ iframe {
         margin-left: 25px;
     }
 
+    .simply-amount {
+        font-size: 2em !important;
+    }
+
 }
 
 
@@ -750,6 +783,9 @@ iframe {
 @media (max-width: 384px) {
     .btn-UnirteFormacion {
         padding: 0.36em 1rem !important;
+    }
+    .simply-amount {
+        font-size: 1.9em !important;
     }
 }
 
@@ -778,12 +814,17 @@ iframe {
         margin-top: 0%;
         margin-left: 25px;
     }
-
+    .simply-amount {
+        font-size: 1.6em !important;
+    }
 }
 
 @media (max-width: 360px) {
     .btn-UnirteFormacion {
         padding: 0.36em 1rem !important;
+    }
+    .simply-amount {
+        font-size: 1.6em !important;
     }
 }
 
@@ -806,6 +847,12 @@ iframe {
         word-spacing: 15px;
         font-size: 2em;
     }
-
+    .panel1{
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+    }
+    .simply-amount {
+        font-size: 1.6em !important;
+    }
 
 }

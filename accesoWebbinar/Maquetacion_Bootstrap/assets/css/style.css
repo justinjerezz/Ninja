@@ -221,9 +221,9 @@ padding: 0.5em;
 
 .horarios{
     display: flex;
-    justify-content: space-around;
-    padding-bottom: 2em;
-    padding-bottom: 2em;
+    justify-content: center;
+    gap: 25px;
+
 }
 
 .desaparecer{
@@ -447,6 +447,9 @@ iframe {
     .contenedorEstrella1 {
         margin-right: 13%;
     }
+    .horarios{
+        margin-inline: 17px !important;
+    }
 }
 
 
@@ -480,6 +483,9 @@ iframe {
 
     .btn-UnirteFormacion {
         padding: 0.36em 2rem !important;
+    }
+    .horarios{
+        margin-inline: 17px !important;
     }
 }
 
@@ -608,6 +614,11 @@ iframe {
     .enlaceWhat {
         font-size: 1em;
     }
+
+    .horarios{
+        margin-inline: 17px !important;
+        text-align: center !important;
+    }
 }
 
 @media (max-width: 428px) {
@@ -696,14 +707,14 @@ iframe {
 }
 .horarios>div:nth-child(1){
     display: flex !important;
-    justify-content: center !important;
+    justify-content: space-around !important;
     text-align: center !important;
     width: 100% !important;
 
 }
 .horarios>div:nth-child(2){
     display: flex !important;
-    justify-content: center !important;
+    justify-content: space-around !important;
     text-align: center !important;
     width: 100% !important;
 
@@ -722,10 +733,22 @@ iframe {
     width: 100% !important;
 
 }
+.horarios>div:nth-child(5){
+    display: flex !important;
+    justify-content: space-around !important;
+    text-align: center !important;
+    width: 100% !important;
 
-.desaparecer{
-    display: block !important;
 }
+.horarios>div:nth-child(6){
+    display: flex !important;
+    justify-content: space-around !important;
+    text-align: center !important;
+    width: 100% !important;
+
+}
+
+
 
 
 
@@ -780,6 +803,7 @@ iframe {
         font-size: 1rem !important;
         letter-spacing: 0px;
         padding: 0.6em 1rem !important;
+        width: 100%;
     }
 
     .temporizador {
@@ -836,6 +860,7 @@ iframe {
         font-size: 1rem !important;
         letter-spacing: 0px;
         padding: 0.6em 1rem !important;
+        width: 100%;
     }
 }
 
@@ -846,6 +871,7 @@ iframe {
         font-size: 1rem !important;
         letter-spacing: 0px;
         padding: 0.6em 1rem !important;
+        width: 100%;
     }
     .simply-amount {
         font-size: 1.9em !important;
@@ -882,6 +908,7 @@ iframe {
         font-size: 1rem !important;
         letter-spacing: 0px;
         padding: 0.6em 1rem !important;
+        width: 100%;
     }
 }
 
@@ -890,6 +917,7 @@ iframe {
         font-size: 1rem !important;
         letter-spacing: 0px;
         padding: 0.6em 1rem !important;
+        width: 100%;
     }
     .simply-amount {
         font-size: 1.6em !important;
@@ -907,9 +935,10 @@ iframe {
     }
 
     .btn-UnirteFormacion {
-        font-size: 1rem !important;
+        font-size: 0.8886rem !important;
         letter-spacing: 0px;
         padding: 0.6em 1rem !important;
+        width: 100%;
     }
     .temporizador {
         word-spacing: 15px;

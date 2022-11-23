@@ -52,7 +52,7 @@ var end = new Date('2022-11-29T15:19:21+00:00');
   /* simplyCountdown('#cuentaAtras', {
         year: 2022, // obligatorio, año en el que empieza
         month: 11, // obligatorio, mes en el que empieza
-        day: 2, // obligatorio, dia en el que empieza
+        day: 22, // obligatorio, dia en el que empieza
         hours: 18, // Se pone del [0-23]
         minutes: 0, // Por defecto es 0  se elige entre este rango [0-59]
         seconds: 0, // Por defecto es 0 se selecciona entre este rango [0-59]
@@ -65,8 +65,6 @@ var end = new Date('2022-11-29T15:19:21+00:00');
         plural: true, //Uso del plurar
         inline: false, //Colocar el contador en line
         inlineClass: 'simply-countdown-inline', //inline css span class in case of inline = true
-        // in case of inline set to false
-        enableUtc: false, // obtiene el tiempo universal
         onEnd: function () {
             // Ejecuta cuando finaliza el contador
             return;
